@@ -30,7 +30,7 @@
           <p>ls</p>
         </div>
         <div class="text-container">
-          <h3>Membersihkan tanpilan git bash</h3>
+          <h3>Membersihkan tampilan git bash</h3>
           <p>clear</p>
         </div>
         <div class="text-container">
@@ -66,11 +66,78 @@
           </p>
         </div>
         <div class="text-container">
+          <h3>Membuat folder dari git bash</h3>
+          <p>
+            <strong>mkdir nama_file</strong>
+          </p>
+        </div>
+        <div class="text-container">
+          <h3>
+            Untuk remote file yang sudah ada di git-hub tapi belum ada di
+            penyimpanan local
+          </h3>
+          <p>
+            <strong
+              >git clone https://github.com/AlyDap/landing-page-test.git
+            </strong>
+          </p>
+          <p>Bisa juga langsung di VSCode dengan klik Ctrl+Shift+P</p>
+        </div>
+        <div class="text-container">
+          <h3>
+            Untuk update file di gitbash yang suda di edit di penyimpanan local
+          </h3>
+          <p>
+            <strong>git push </strong>
+          </p>
+        </div>
+
+        <div class="text-container">
+          <h3>
+            Untuk remote file yang sudah ada di local penyimpanan tapi belum ada
+            di git-hub
+          </h3>
+          <p>Harus buat folder / file kosong di penyimpanan local</p>
+          <p>Lalu buat repo kosong di git-hub</p>
+          <p>Kemudian ketik code di bawah untuk meremotenya</p>
+          <p>
+            <strong
+              >git remote add origin
+              https://github.com/AlyDap/landing-page-test.git
+            </strong>
+          </p>
+        </div>
+        <div class="text-container">
+          <h3>
+            Untuk push ke gitbash dari penyimpanan local khusus repo kosong
+          </h3>
+          <p>
+            <strong>git branch -M main </strong>
+          </p>
+          <p>
+            <strong>git push -u origin main </strong>
+          </p>
+        </div>
+        <div class="text-container">
+          <h3>Untuk Cek sudah sampai mana repo di git-hub</h3>
+          <p>
+            <strong>git fetch</strong>
+          </p>
+        </div>
+        <div class="text-container">
+          <h3>Untuk Merge file yang tidak bisa dipush</h3>
+          <p>
+            <strong>git pull</strong>
+          </p>
+          <p>Lalu di add & commit seperti biasa</p>
+          <p>Kemudian di push lagi</p>
+        </div>
+        <div class="text-container">
           <h3>untuk lihat username, email, dll.</h3>
           <p><strong>git config --list</strong> => bisa lihat detail list</p>
         </div>
         <div class="text-container">
-          <h3>Ganti usernam dan email GIT</h3>
+          <h3>Ganti username dan email GIT</h3>
           <p><strong>git config --global user.name "nama username"</strong></p>
           <p>
             <strong>git config --global user.email "email@gmail.com"</strong>
