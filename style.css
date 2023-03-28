@@ -1,0 +1,27 @@
+/* body,
+html {
+  margin: 0;
+} */
+body {
+  display: flex;
+  background-color: blanchedalmond;
+}
+.box-container {
+  margin: 5px;
+  padding: 3px;
+}
+.gambar-container {
+  text-align: center;
+  /* border: solid 2px brown; */
+  width: 100%;
+}
+.gambar {
+  border: solid 1px burlywood;
+  border-radius: 7%;
+  width: 90%;
+  height: 90%;
+}
+
+p {
+  font-size: large;
+}
